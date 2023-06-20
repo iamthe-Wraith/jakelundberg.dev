@@ -24,9 +24,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     height: 7vh;
+    padding: 0.5rem 2rem;
     z-index: 99;
+    box-sizing: border-box;
   }
 
   header {

@@ -17,13 +17,21 @@ body {
 
   --secondary-500: oklch(80% 0.18 80.47);
 
+  --font-primary: SpookyMagic;
+
   margin: 0;
   padding: 0;
   background: var(--dark-500);
   overflow: hidden;
   box-sizing: border-box;
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 }
 
 h1 {
-  font-family: SpookyMagic;
+  font-family: var(--font-primary);
 }
